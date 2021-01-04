@@ -8,43 +8,54 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
 
-<body>
-    <h1>Kalkulator</h1>
-    <table>
-        <thead>
-            <tr><input type="text" name="" id="result"></tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><input type="button" value="9" onclick="display('9')"></td>
-                <td><input type="button" value="8" onclick="display('8')"></td>
-                <td><input type="button" value="7" onclick="display('7')"></td>
-                <td><input type="button" value="(" onclick="display('(')"></td>
-                <td><input type="button" value=")" onclick="display(')')"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="6" onclick="display('6')"></td>
-                <td><input type="button" value="5" onclick="display('5')"></td>
-                <td><input type="button" value="4" onclick="display('4')"></td>
-                <td><input type="button" value="*" onclick="display('*')"></td>
-                <td><input type="button" value="/" onclick="display('/')"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="3" onclick="display('3')"></td>
-                <td><input type="button" value="2" onclick="display('2')"></td>
-                <td><input type="button" value="1" onclick="display('1')"></td>
-                <td><input type="button" value="c" onclick="clr()"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="0" onclick="display('0')"></td>
-                <td><input type="button" value="+" onclick="display('+')"></td>
-                <td><input type="button" value="-" onclick="display('-')"></td>
-                <td><input type="button" value="=" onclick="solve()"></td>
-            </tr>
+<body
+    background="https://images.unsplash.com/photo-1559242550-bdfaa5081d95?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1960&q=80">
+    <h1 id="kalkulatorHeading">Kalkulator</h1>
+    <div align="center">
+        <table height="200">
+            <thead>
+                <tr><input type="text" name="" id="result"></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="button" value="9" onclick="display('9')"></td>
+                    <td><input type="button" value="8" onclick="display('8')"></td>
+                    <td><input type="button" value="7" onclick="display('7')"></td>
+                    <td><input type="button" value="(" onclick="display('(')"></td>
+                    <td><input type="button" value=")" onclick="display(')')"></td>
+                    <td><input type="button" value="Pi" onclick="pi()"></td>
+                </tr>
 
-        </tbody>
+                <tr>
+                    <td><input type="button" value="6" onclick="display('6')"></td>
+                    <td><input type="button" value="5" onclick="display('5')"></td>
+                    <td><input type="button" value="4" onclick="display('4')"></td>
+                    <td><input type="button" value="*" onclick="display('*')"></td>
+                    <td><input type="button" value="/" onclick="display('/')"></td>
+                    <td><input type="button" value="e" onclick="e()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="3" onclick="display('3')"></td>
+                    <td><input type="button" value="2" onclick="display('2')"></td>
+                    <td><input type="button" value="1" onclick="display('1')"></td>
 
-    </table>
+                    <td><input type="button" value="Mod" onclick="display('%')"></td>
+                    <td><input type="button" value="c" onclick="clr()"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" value="0" onclick="display('0')"></td>
+                    <td></td>
+                    <td><input type="button" value="+" onclick="display('+')"></td>
+                    <td><input type="button" value="-" onclick="display('-')"></td>
+                    <td><input type="button" value="=" onclick="solve()"></td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
 
     <script src="calculate.js"></script>
 </body>

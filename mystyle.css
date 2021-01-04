@@ -21,7 +21,29 @@ img {
     width: 1440px;
 }
 
+
 .profilepic {
     height: 200px;
-    width: 180px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+td input {
+   height: 50px;
+    width: 100px;
+    font-size: x-large;
+    border-radius: 10%;
+}
+
+#result {
+    height: 50px;
+    width: 500px;
+    font-size: x-large;
+    border-radius: 10%;
+}
+
+#kalkulatorHeading {
+    color: aliceblue;
+    font-size: 70px;
+    text-shadow: 10px;
 }
