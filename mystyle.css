@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    color: indigo;
+}
+button {
+    color: rgb(63, 47, 165);
+    background-color: rgb(170, 173, 177);
+}
+a {
+    text-decoration: none;
+}
+
+.vers {
+    background-color: mediumslateblue;
+}
+
+img {
+    height: 584px;
+    width: 1440px;
+}
+
+.profilepic {
+    height: 200px;
+    width: 180px;
+}
